@@ -3,7 +3,7 @@
 A chatbot utilizing the [Exist Gründungsstipendium](https://www.exist.de/EXIST/Navigation/EN/Start-upFunding/EXIST-Business-Start-up-Grant/exist-business-start-up-grant.html) information with [Next.js](https://nextjs.org/docs).
 <br/>
 <br/>
-!Exist Gründungsstipendium Chatbot
+![Exist Gründungsstipendium Chatbot](./public/exist.svg)
 
 ## Quickstart Setup
 
