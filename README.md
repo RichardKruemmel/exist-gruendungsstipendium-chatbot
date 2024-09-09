@@ -3,14 +3,14 @@
 A chatbot utilizing the [Exist Gründungsstipendium](https://www.exist.de/EXIST/Navigation/EN/Start-upFunding/EXIST-Business-Start-up-Grant/exist-business-start-up-grant.html) information with [Next.js](https://nextjs.org/docs).
 <br/>
 <br/>
-![Exist Gründungsstipendium Chatbot](https://example.com/image.png)
+!Exist Gründungsstipendium Chatbot
 
 ## Quickstart Setup
 
 ### 1. Clone repo
 
 ```shell
-git clone https://github.com/your-repo/exist-gruendungsstipendium-chatbot.git
+git clone https://github.com/RichardKruemmel/exist-gruendungsstipendium-chatbot.git
 cd exist-gruendungsstipendium-chatbot
 ```
 
@@ -22,7 +22,17 @@ export OPENAI_API_KEY="sk_..."
 
 (or in `.env.example` and rename it to `.env`).
 
-### 3. Install dependencies
+### 3. Set your [OpenAI Assistants ID](https://platform.openai.com/assistants)
+
+```shell
+export OPENAI_ASSISTANT_ID="asst_..."
+```
+
+#### Note
+
+For detailed instructions on how to set up an OpenAI Assistant, please refer to the [OpenAI Assistants Overview](https://platform.openai.com/docs/assistants/overview).
+
+### 4. Install dependencies
 
 ```shell
 npm install
